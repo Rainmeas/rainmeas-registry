@@ -1,0 +1,14 @@
+{
+    "name": "nurashade-reversegeo",
+    "author": "someone123",
+    "description": "Weather measure for Open-Meteo.",
+    "homepage": "https://github.com/NuraShade/NuraShadeReverseGeo",
+    "license": "Creative Commons Attribution-ShareAlike 3.0 Unported",
+    "versions": {
+        "1.0.0": {
+            "download": "https://github.com/someone123/freshweather/releases/download/v1.0.0/freshweather.zip"
+        },
+        "latest": "1.0.0"
+    },
+    "dependencies": {}
+}
