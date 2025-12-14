@@ -4,6 +4,7 @@
     "description": "NuraShade Weather Measures is a collection of Rainmeter configuration files that provide comprehensive weather forecasting capabilities using the Open-Meteo API. This package includes measures for current weather conditions, 7-day forecasts, and 7-hour hourly forecasts. Most numerical measures include both precise and rounded variants for flexible display options.",
     "homepage": "https://github.com/NuraShade/NuraShadeWeather",
     "license": "Creative Commons Attribution-ShareAlike 3.0 Unported",
+    "markdown": "https://raw.githubusercontent.com/NuraShade/NuraShadeWeather/refs/heads/main/README.md",
     "versions": {
         "1.0.0": {
             "download": "https://github.com/NuraShade/NuraShadeWeather/releases/download/v1.0.0/nurashadeweather_v1.0.0.zip"
