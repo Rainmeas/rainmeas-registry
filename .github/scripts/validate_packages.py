@@ -51,6 +51,10 @@ def validate_package_structure(package_name, package_data):
     if package_data.get("name") != package_name:
         errors.append(f"Package name '{package_data.get('name')}' doesn't match filename '{package_name}'")
     
+    # Check that package name doesn't contain spaces
+    if " " in package_name:
+        errors.append(f"Package name '{package_name}' contains spaces. Package names must not contain spaces.")
+    
     # Check versions structure
     if "versions" in package_data:
         versions = package_data["versions"]
